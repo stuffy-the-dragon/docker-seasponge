@@ -1,8 +1,6 @@
 FROM node:latest
 MAINTAINER stuffy@std-lab.co.za
 
-COPY apt.conf /etc/apt/apt.conf
-
 RUN apt-get update && \
   apt-get -y install \
     git \

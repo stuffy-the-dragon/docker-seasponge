@@ -23,7 +23,7 @@ RUN git clone https://github.com/mozilla/seasponge.git seasponge && \
 
 WORKDIR /seasponge
 
-COPY entry_point.sh .
+COPY entry_point.sh /seasponge/
 
 EXPOSE 9000
 
